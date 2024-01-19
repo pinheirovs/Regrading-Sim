@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>AAC 3.0 Mass Regrade Sim</title>
+</head>
+<body>
+    <h1>Archeage Classic 3.0 Mass Regrade Simulator</h1>
+    <h3>Select which equipment you'd like to regrade.</h3>
+    <div class="dropdown" onclick="toggleDropdown()">
+        <button class="dropbtn" id="selectedOption">Select an Option</button>
+        <div class="dropdown-content" style="display: none;">
+            <a href="#" onclick="selectOption('Obsidian Weapon')">Obsidian Weapon</a>
+            <a href="#" onclick="selectOptionWithSubOptions('Obsidian Armor')">Obsidian Armor</a>
+            <a href="#" onclick="selectOption('Magnificent Weapon')">Magnificent Weapon</a>
+        </div>
+    </div>
+</body>
+</html>
